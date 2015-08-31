@@ -1,0 +1,24 @@
+<!-- Indices written at Tue, 10 Feb 2015 21:46:00 JST -->
+
+<datastore-indexes>
+
+    <!-- Used 1 time in query history -->
+    <datastore-index kind="ArticleModel" ancestor="false" source="auto">
+        <property name="publicFlg" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="ArticleModel" ancestor="false" source="manual">
+        <property name="categoryModelRef" direction="asc"/>
+        <property name="publicFlg" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+    <datastore-index kind="SNSTwitModel" ancestor="false" source="manual">
+        <property name="dateModelRef" direction="asc"/>
+        <property name="createDate" direction="asc"/>
+    </datastore-index>
+    <datastore-index kind="ArticleModel" ancestor="false" source="manual">
+        <property name="categoryModelRef" direction="asc"/>
+        <property name="createDate" direction="desc"/>
+    </datastore-index>
+
+</datastore-indexes>
